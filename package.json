@@ -1,0 +1,35 @@
+{
+  "name": "eslint-plugin-spectrum-web-components",
+  "version": "1.0.0",
+  "description": "ESLint plugin for Spectrum Web Components dev mode checks",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint:fixtures:pass": "eslint -c tests/fixtures/eslint.config.mjs tests/fixtures/pass/",
+    "lint:fixtures:fail": "eslint -c tests/fixtures/eslint.config.mjs tests/fixtures/fail/",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "eslint": ">=8.0.0"
+  },
+  "devDependencies": {
+    "@spectrum-web-components/bundle": "^1.8.0",
+    "@types/node": "^22.13.4",
+    "@typescript-eslint/utils": "^8.24.1",
+    "eslint": "^9.20.0",
+    "typescript": "^5.7.3",
+    "vitest": "^3.0.5"
+  },
+  "dependencies": {
+    "@typescript-eslint/utils": "^8.24.1"
+  }
+}
