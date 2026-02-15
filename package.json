@@ -31,5 +31,8 @@
   },
   "dependencies": {
     "@typescript-eslint/utils": "^8.24.1"
+  },
+  "overrides": {
+    "vite": "^6.0.0"
   }
 }
