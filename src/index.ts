@@ -6,6 +6,7 @@ import { accessibleDialogWrapper } from "./rules/accessible-dialog-wrapper";
 import { accessibleProgressBar } from "./rules/accessible-progress-bar";
 import { accessibleClearButton } from "./rules/accessible-clear-button";
 import { validateThemeContext } from "./rules/validate-theme-context";
+import { overlayTriggerTriggeredBy } from "./rules/overlay-trigger-triggered-by";
 
 const rules = {
   "no-deprecated-options": noDeprecatedOptions,
@@ -16,6 +17,7 @@ const rules = {
   "accessible-progress-bar": accessibleProgressBar,
   "accessible-clear-button": accessibleClearButton,
   "validate-theme-context": validateThemeContext,
+  "overlay-trigger-triggered-by": overlayTriggerTriggeredBy,
 };
 
 const configs = {
@@ -30,6 +32,7 @@ const configs = {
       "spectrum-web-components/accessible-progress-bar": "warn",
       "spectrum-web-components/accessible-clear-button": "warn",
       "spectrum-web-components/validate-theme-context": "warn",
+      "spectrum-web-components/overlay-trigger-triggered-by": "warn",
     },
   },
 };
