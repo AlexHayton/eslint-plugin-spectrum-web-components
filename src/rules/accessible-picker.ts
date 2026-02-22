@@ -4,7 +4,7 @@ import { getTemplateText, isLitHtmlTag } from "../utils/lit-utils";
 
 const createRule = ESLintUtils.RuleCreator(
   (name) =>
-    `https://github.com/nickelsh1ts/eslint-plugin-spectrum-web-components/blob/main/docs/rules/${name}.md`,
+    `https://github.com/AlexHayton/eslint-plugin-spectrum-web-components/blob/main/docs/rules/${name}.md`,
 );
 
 type MessageIds = "missingLabel";
