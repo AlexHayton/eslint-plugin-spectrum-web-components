@@ -5,10 +5,11 @@
     "requireCleanWorkingDir": false
   },
   "github": {
-    "release": true
+    "release": true,
+    "web": true,
+    "autoGenerate": true
   },
   "npm": {
-    "publish": true,
-    "skipChecks": true
+    "publish": true
   }
 }
