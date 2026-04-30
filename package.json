@@ -2,7 +2,7 @@
   "name": "@alexhayton/eslint-plugin-spectrum-web-components",
   "version": "0.0.4",
   "description": "ESLint plugin for Spectrum Web Components dev mode checks",
-  "license": "ISC",
+  "license": "MIT",
   "author": "",
   "type": "commonjs",
   "main": "dist/index.js",
