@@ -1,4 +1,4 @@
-# eslint-plugin-spectrum-web-components
+# eslint-plugin-spectrum-web-components-lit
 
 ESLint plugin for Spectrum Web Components dev mode checks.
 
@@ -10,26 +10,26 @@ You'll first need to install [ESLint](https://eslint.org/):
 npm i eslint --save-dev
 ```
 
-Next, install `eslint-plugin-spectrum-web-components`:
+Next, install `@alexhayton/spectrum-web-components-lit`:
 
 ```bash
-npm install @alexhayton/eslint-plugin-spectrum-web-components --save-dev
+npm install @alexhayton/spectrum-web-components-lit --save-dev
 ```
 
 ## Usage
 
 ### Flat Config (ESLint 9+)
 
-Add `@alexhayton/spectrum-web-components` to the plugins section of your `eslint.config.mjs` configuration file. You can omit the `eslint-plugin-` prefix:
+Add `@alexhayton/spectrum-web-components-lit` to the plugins section of your `eslint.config.mjs` configuration file:
 
 ```javascript
-import spectrumWebComponents from "@alexhayton/eslint-plugin-spectrum-web-components";
+import spectrumWebComponents from "@alexhayton/spectrum-web-components-lit";
 
 export default [
     {
         files: ["**/*.js", "**/*.ts"],
         plugins: {
-            "@alexhayton/spectrum-web-components": spectrumWebComponents
+            "@alexhayton/spectrum-web-components-lit": spectrumWebComponents
         },
         rules: {
             ...spectrumWebComponents.configs.recommended.rules
@@ -40,23 +40,23 @@ export default [
 
 ### Legacy Config (ESLint 8)
 
-Add `@alexhayton/spectrum-web-components` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
+Add `@alexhayton/spectrum-web-components-lit` to the plugins section of your `.eslintrc` configuration file:
 
 ```json
 {
     "plugins": [
-        "@alexhayton/spectrum-web-components"
+        "@alexhayton/spectrum-web-components-lit"
     ],
     "rules": {
-        "@alexhayton/spectrum-web-components/accessible-action-menu": "warn",
-        "@alexhayton/spectrum-web-components/accessible-avatar": "warn",
-        "@alexhayton/spectrum-web-components/accessible-clear-button": "warn",
-        "@alexhayton/spectrum-web-components/accessible-dialog-wrapper": "warn",
-        "@alexhayton/spectrum-web-components/accessible-picker": "warn",
-        "@alexhayton/spectrum-web-components/accessible-progress-bar": "warn",
-        "@alexhayton/spectrum-web-components/no-deprecated-options": "warn",
-        "@alexhayton/spectrum-web-components/overlay-trigger-triggered-by": "warn",
-        "@alexhayton/spectrum-web-components/validate-theme-context": "warn"
+        "@alexhayton/spectrum-web-components-lit/accessible-action-menu": "warn",
+        "@alexhayton/spectrum-web-components-lit/accessible-avatar": "warn",
+        "@alexhayton/spectrum-web-components-lit/accessible-clear-button": "warn",
+        "@alexhayton/spectrum-web-components-lit/accessible-dialog-wrapper": "warn",
+        "@alexhayton/spectrum-web-components-lit/accessible-picker": "warn",
+        "@alexhayton/spectrum-web-components-lit/accessible-progress-bar": "warn",
+        "@alexhayton/spectrum-web-components-lit/no-deprecated-options": "warn",
+        "@alexhayton/spectrum-web-components-lit/overlay-trigger-triggered-by": "warn",
+        "@alexhayton/spectrum-web-components-lit/validate-theme-context": "warn"
     }
 }
 ```

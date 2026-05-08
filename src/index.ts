@@ -22,17 +22,17 @@ const rules = {
 
 const configs = {
   recommended: {
-    plugins: ["@alexhayton/spectrum-web-components"],
+    plugins: ["@alexhayton/spectrum-web-components-lit"],
     rules: {
-      "@alexhayton/spectrum-web-components/no-deprecated-options": "warn",
-      "@alexhayton/spectrum-web-components/accessible-avatar": "warn",
-      "@alexhayton/spectrum-web-components/accessible-action-menu": "warn",
-      "@alexhayton/spectrum-web-components/accessible-picker": "warn",
-      "@alexhayton/spectrum-web-components/accessible-dialog-wrapper": "warn",
-      "@alexhayton/spectrum-web-components/accessible-progress-bar": "warn",
-      "@alexhayton/spectrum-web-components/accessible-clear-button": "warn",
-      "@alexhayton/spectrum-web-components/validate-theme-context": "warn",
-      "@alexhayton/spectrum-web-components/overlay-trigger-triggered-by": "warn",
+      "@alexhayton/spectrum-web-components-lit/no-deprecated-options": "warn",
+      "@alexhayton/spectrum-web-components-lit/accessible-avatar": "warn",
+      "@alexhayton/spectrum-web-components-lit/accessible-action-menu": "warn",
+      "@alexhayton/spectrum-web-components-lit/accessible-picker": "warn",
+      "@alexhayton/spectrum-web-components-lit/accessible-dialog-wrapper": "warn",
+      "@alexhayton/spectrum-web-components-lit/accessible-progress-bar": "warn",
+      "@alexhayton/spectrum-web-components-lit/accessible-clear-button": "warn",
+      "@alexhayton/spectrum-web-components-lit/validate-theme-context": "warn",
+      "@alexhayton/spectrum-web-components-lit/overlay-trigger-triggered-by": "warn",
     },
   },
 };
